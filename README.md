@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 cp config.json.example config.json
 ```
-Modify **credentials_file**, **gmail_query**, and **body_patterns** entries in config.json
+Modify _credentials_file_, _gmail_query_, and _body_patterns_ entries in config.json
 
 ##### credentials_file:
 Go to https://console.developers.google.com, create new project, the under "Credentials" create new OAuth client ID; download credentials.json.

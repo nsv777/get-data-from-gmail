@@ -1,6 +1,6 @@
-bs4~=0.0.1
-beautifulsoup4~=4.9.3
-openpyxl~=3.0.5
+bs4
+beautifulsoup4
+openpyxl
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib

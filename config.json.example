@@ -1,0 +1,27 @@
+{
+  "api_scopes": [
+    "https://www.googleapis.com/auth/gmail.readonly"
+  ],
+  "credentials_file": "credentials.json",
+  "gmail_query": "from:somename@example.com",
+  "body_patterns": [
+    ["name", "^Имя: (.*)$"],
+    ["phone", "^Телефон: (.*)$"],
+    ["date", "^Дата: (.*)$"],
+    ["time", "^Время: (.*)$"],
+    ["url", "^Ссылка на страницу: (.*)$"],
+    ["browser", "^Браузер: (.*)$"],
+    ["ip_address", "^IP-адрес: (.*)$"],
+    ["email", "^Email: (.*)$"],
+    ["size", "^Размеры: (.*)$"],
+    ["type", "^Тип: (.*)$"],
+    ["bar_couter", "^Барная стойка: (.*)$"],
+    ["stove", "^Плита: (.*)$"],
+    ["fridge", "^Холодильник : (.*)$"],
+    ["dishwasher", "^Посудомоечная машина: (.*)$"],
+    ["microwave", "^Микроволновая печь: (.*)$"],
+    ["washing", "^Стиральная машина: (.*)$"],
+    ["suggestions", "^Ваши пожелания: (.*)$"],
+    ["picture", "^Ссылка на рисунок: (.*)$"]
+  ]
+}

@@ -19,5 +19,5 @@ Go to https://console.developers.google.com, create new project, then under "Cre
 A query to filter emails.
 
 ##### body_patterns:
-List of column names of the to-be created spreadsheet along with regexp which should extract required info from email body.
+List of column names of the to-be created spreadsheet along with regexp to extract required info from email body.
 
